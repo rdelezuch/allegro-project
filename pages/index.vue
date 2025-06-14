@@ -1,8 +1,6 @@
 <script setup lang="ts">
-import type { ProductsResponse } from '~/types/products'
-
-// Pobieranie danych z backendu z poprawnym typem:
-const { data, pending, error } = await useFetch<ProductsResponse>('/api/products')
+// Pobieranie danych
+const { data, pending, error } = await useFetch('/api/products')
 
 // Reaktywne zmienne do przechowywania fragmentów danych
 const categories = computed(() => data.value?.categories || [])
