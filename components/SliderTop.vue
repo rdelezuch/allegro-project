@@ -21,7 +21,7 @@
         <!-- Prawa kolumna -->
         <div class="p-8 md:w-1/2 flex justify-center items-center">
           <!-- Sekcja ze zdjęciem osoby -->
-          <div class="w-36 h-36">
+          <div class="w-45 h-45">
             <!-- Obrazek pobrany z Unsplash (stockowe zdjęcie) -->
             <img
                 src="/usmiechnieta_osoba.avif"
