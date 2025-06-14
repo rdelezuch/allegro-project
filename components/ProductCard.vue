@@ -9,7 +9,6 @@
 </template>
 
 <script setup lang="ts">
-<!-- Zdefiniowane propsy -->
   defineProps<{
     image: string
     name: string

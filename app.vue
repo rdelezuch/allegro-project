@@ -2,7 +2,9 @@
   <div>
     <NuxtRouteAnnouncer />
     <Navbar/>
-    <SliderTop/>
+    <NuxtLayout>
+      <NuxtPage/>
+    </NuxtLayout>
     <FooterArticles/>
     <Footer/>
   </div>

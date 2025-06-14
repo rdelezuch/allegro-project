@@ -1,7 +1,7 @@
 <template>
   <section class="bg-[#222222] text-white py-6 px-4">
     <div class="max-w-screen-xl mx-auto">
-      <h2 class="text-xl font-semibold mb-4">Znajdź inspiracje <span class="text-sm text-gray-400">w kategorii Moda</span></h2>
+      <h2 class="text-xl font-semibold mb-4">Znajdź inspiracje <span class="text-sm text-gray-400">w różnych kategoriach</span></h2>
 
       <!-- Lista inspiracji -->
       <div class="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-6 gap-4">
@@ -25,7 +25,6 @@
 </template>
 
 <script setup lang="ts">
-<!-- Propsy dla inspiracji-->
   defineProps<{
     items: {
       image: string
